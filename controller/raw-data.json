@@ -1,0 +1,95 @@
+{
+    "start": 1748453370000,
+    "data": {
+        "0": [
+            {
+                "led_ids": [
+                    "*"
+                ],
+                "hsv": {
+                    "hue": 0.0,
+                    "saturation": 0.0,
+                    "value": 0.0
+                },
+                "type": "instant"
+            }
+        ],
+        "500": [
+            {
+                "led_ids": [
+                    "1*3",
+                    "5"
+                ],
+                "hsv": {
+                    "hue": 0.0,
+                    "saturation": 0.5,
+                    "value": 1.0
+                },
+                "type": "slow_fade"
+            },
+            {
+                "led_ids": [
+                    "4"
+                ],
+                "hsv": {
+                    "hue": 0.0,
+                    "saturation": 1.0,
+                    "value": 1.0
+                },
+                "type": "fast_fade"
+            }
+        ],
+        "750": [
+            {
+                "led_ids": [
+                    "6*14",
+                    "20*24"
+                ],
+                "hsv": {
+                    "hue": 0.0,
+                    "saturation": 0.5,
+                    "value": 1.0
+                },
+                "type": "slow_fade"
+            },
+            {
+                "led_ids": [
+                    "15*19",
+                    "25*30"
+                ],
+                "hsv": {
+                    "hue": 0.0,
+                    "saturation": 1.0,
+                    "value": 1.0
+                },
+                "type": "slow_fade"
+            }
+        ],
+        "1000": [
+            {
+                "led_ids": [
+                    "*"
+                ],
+                "hsv": {
+                    "hue": 100.0,
+                    "saturation": 0.5,
+                    "value": 1.0
+                },
+                "type": "slow_fade"
+            }
+        ],
+        "1500": [
+            {
+                "led_ids": [
+                    "*"
+                ],
+                "hsv": {
+                    "hue": 0.0,
+                    "saturation": 0.0,
+                    "value": 0.0
+                },
+                "type": "slow_fade"
+            }
+        ]
+    }
+}
